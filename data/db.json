@@ -1,0 +1,25 @@
+{
+  "categories": [
+    {
+      "name": "Food",
+      "display_name": "Food display",
+      "description": "Display of food stuffs",
+      "id": 1
+    },
+    {
+      "name": "Dave",
+      "display_name": "Wolfe !",
+      "description": "The Wolf man!",
+      "id": 2
+    }
+  ],
+  "products": [
+    {
+      "category": "Food",
+      "name": "mansaf",
+      "display_name": "MANNSSAAFF",
+      "description": "a Jordainian Food that contains meat rice and yougurt",
+      "id": 1
+    }
+  ]
+}

@@ -4,7 +4,10 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node index.js",
+    "test": "jest --verbose --coverage",
+    "lint": "eslint '**/*.js' --ignore-pattern node_modules/",
+    "lint:fix": "eslint '**/*.js' --ignore-pattern node_modules/ --fix"
   },
   "repository": {
     "type": "git",
@@ -16,5 +19,11 @@
   "bugs": {
     "url": "https://github.com/Hisham-401-advanced-javascript/api-server/issues"
   },
-  "homepage": "https://github.com/Hisham-401-advanced-javascript/api-server#readme"
+  "homepage": "https://github.com/Hisham-401-advanced-javascript/api-server#readme",
+  "dependencies": {
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "jest": "^26.4.2",
+    "supertest": "^4.0.2"
+  }
 }

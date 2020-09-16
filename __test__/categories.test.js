@@ -1,7 +1,7 @@
 require('@code-fellows/supergoose');
 
-const categoryModels = require('../lib/models/categories/categories.collection.js');
-const categoryModel = new categoryModels();
+const categoryModel = require('../lib/models/categories/categories.collection.js');
+
 
 beforeEach(async () => {
     await categoryModel.schema.deleteMany({});

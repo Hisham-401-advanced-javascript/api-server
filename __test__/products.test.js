@@ -1,7 +1,7 @@
 require('@code-fellows/supergoose');
 
-const productModels = require('../lib/models/products/products.collection.js');
-const productModel = new productModels();
+const productModel = require('../lib/models/products/products.collection.js');
+
 
 beforeEach(async () => {
     await productModel.schema.deleteMany({});
